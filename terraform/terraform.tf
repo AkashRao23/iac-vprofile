@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "gitopsterrastate"
+    bucket = "akashdevopsdemo"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
@@ -37,3 +37,5 @@ terraform {
 ##
 ##
 ##
+#random is to generate random texts
+# tls for kubernetes certificate
